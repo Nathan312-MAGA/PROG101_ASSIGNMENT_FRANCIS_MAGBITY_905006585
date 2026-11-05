@@ -31,3 +31,40 @@ A solution to community waste management in Freetown involves:
 •	Enforce laws: Penalize indiscriminate dumping and reward good waste practices
 •	Create jobs: Employ youth in collection, sorting, recycling and compost production
 •	Monitor and evaluate: Track progress and adjust strategies based on feedback.
+## Pseudocode
+Function Main
+    Declare String name, location, wasteRequest, requestID, status, phoneNumber
+
+    Output "Enter your full name"
+    Input name
+    Output "Enter your phoneNumber"
+    Input phoneNumber
+    Output "Enter your location"
+    Input location
+    Output "Enter your wasteRequest"
+    Input wasteRequest
+    If name="" AND phoneNumber=""AND location=""AND wasteRequest=""
+        Output "Missing information please enter all required details again"
+        Output "Re-enter your full name"
+        Input name
+        Output "Re-enter your phoneNumber"
+        Input phoneNumber
+        Output "Re-enter your location"
+        Output "Re-enter your waste request"
+        Input wasteRequest
+    Else
+        Assign requestID = "WCR001"
+        Assign status = "PENDING"
+        Output "REQUEST REGISTERED SUCCESSFULLY"
+        Output "RequestID "&requestID
+        Output "Status "&status
+    End
+End
+##Screenshots
+<img width="1366" height="720" alt="image" src="https://github.com/user-attachments/assets/b9aad351-73c5-4d06-9c29-b1e635b3baf6" />
+<img width="1366" height="720" alt="image" src="https://github.com/user-attachments/assets/c8162c24-3e1d-45cc-9a7c-ccdf0c12e4c7" />
+<img width="1366" height="720" alt="image" src="https://github.com/user-attachments/assets/20d99d7e-ce9e-4b43-a422-2870b95608f8" />
+<img width="1366" height="720" alt="image" src="https://github.com/user-attachments/assets/e71efee8-94e3-4a80-8611-a3ca6ed3875c" />
+##Author
+-Francis Magbity-905006585
+
